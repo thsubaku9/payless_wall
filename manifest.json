@@ -9,7 +9,20 @@
      "default_icon": "resource/icon.png",
      "default_popup": "src/html/popup.html"
     },
+
+    "background" : {
+        "scripts" : [
+            "src/background/bypassLogic.js"
+        ]
+    },
+
     "permissions": [
-     "activeTab"
+     "activeTab",
+     "cookies",
+     "tabs",
+     "http://*/",
+     "https://*/",
+     "webRequest",
+     "webRequestBlocking"
      ]
   }
