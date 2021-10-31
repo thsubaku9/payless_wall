@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Payless Wall",
+    "description": "Visit pay walled content for free",
+    "version": "0.1",
+  
+    "browser_action": {
+     "default_icon": "resource/icon.png",
+     "default_popup": "src/html/popup.html"
+    },
+    "permissions": [
+     "activeTab"
+     ]
+  }
